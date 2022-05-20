@@ -1,0 +1,27 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px auto;
+}
+
+.container .card {
+  width: 220px;
+  margin: 5px;
+}
+
+.container .card h2 {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
